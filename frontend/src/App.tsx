@@ -1,9 +1,10 @@
-import React from 'react';
-//import './App.css';
+import {ReactComponent as GitHubIcon} from './assets/img/github.svg'
+import Navbar from './components/navbar';
 
 function App() {
+  //jsx format
   return (
-    <h1>My Landing Page</h1>
+<Navbar/>
   );
 }
 
