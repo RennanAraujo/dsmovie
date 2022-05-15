@@ -1,7 +1,7 @@
-function Listing(){
-  return (
-    <h1>Listing page</h1>
-  );
+import Pagination from 'components/Navbar/Pagination';
+
+function Listing() {
+  return <Pagination />;
 }
 
 export default Listing;
